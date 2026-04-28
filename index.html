@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Laman Web Saya</title>
+<meta charset="UTF-8">
+<title>JARVIS IRON MAN SYSTEM</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Selamat Datang 🌍</h1>
-  <p>Ini website pertama saya di GitHub Pages</p>
+
+<div class="topbar">
+⚡ JARVIS CORE SYSTEM v2
+</div>
+
+<div class="dashboard">
+
+    <div class="panel">
+        <h3>⚙ SYSTEM STATUS</h3>
+        <p>ONLINE</p>
+        <p>AI CORE: ACTIVE</p>
+        <p>SECURITY: HIGH</p>
+    </div>
+
+    <div class="panel">
+        <h3>🧠 MEMORY CORE</h3>
+        <div id="memoryBox">EMPTY</div>
+    </div>
+
+    <div class="panel">
+        <h3>🎮 COMMAND MODE</h3>
+        <input id="commandInput" placeholder="type command...">
+        <button onclick="runCommand()">EXECUTE</button>
+    </div>
+
+</div>
+
+<div id="chatBox"></div>
+
+<div class="input-area">
+    <input id="userInput" placeholder="Ask JARVIS...">
+    <button onclick="sendMessage()">SEND</button>
+    <button onclick="startVoice()">🎤</button>
+</div>
+
+<script src="java.js"></script>
 </body>
 </html>
