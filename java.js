@@ -36,7 +36,7 @@ async function getAI(prompt){
 
 try {
 
-const res = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAj4mwHOade4mbhJmts_Pz0w7MdWhcr9Bc", {
+const res = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyB1GgqHwydI97NQdgQ2-bt90zk6AGkxUk8", {
 method:"POST",
 headers:{"Content-Type":"application/json"},
 body:JSON.stringify({
